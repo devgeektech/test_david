@@ -1,0 +1,43 @@
+<div ui-view>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Test</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>
+    <button class="btn btn-primary" ng-click="results()">Get Results</button><br>
+    <div class="container">
+        <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">First Name</label>
+            <div class="col-10">
+                <input class="form-control" type="text" ng-model="data.firstName">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-search-input" class="col-2 col-form-label">Last Name</label>
+            <div class="col-10">
+                <input class="form-control" type="search" ng-model="data.lastName">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-search-input" class="col-2 col-form-label">Phone Number</label>
+            <div class="col-10">
+                <input class="form-control" type="search" ng-model="data.phoneNumber">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-search-input" class="col-2 col-form-label">Random Token</label>
+            <div class="col-10">
+                <input class="form-control" type="search" ng-model="data.randomToken">
+            </div>
+        </div>
+    </div>
+
+</div>
